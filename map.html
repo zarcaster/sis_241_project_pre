@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Eventos "L&F" - Mapa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="http://webthemez.com" />
+    <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <link href="css/jcarousel.css" rel="stylesheet" />
+    <link href="css/flexslider.css" rel="stylesheet" />
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Lightbox2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
+    <style>
+        ol.romana {
+            list-style-type: upper-roman;
+        }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- start header -->
+        <header>
+            <div class="navbar navbar-default navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" /></a>
+                    </div>
+                    <div class="navbar-collapse collapse ">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="map.html">Mapa</a></li>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="about.html">Sobre nosotros</a></li>
+                            <li><a href="courses.html">Servicios</a></li>
+                            <li><a href="portfolio.html">Inventario</a></li>
+                            <li><a href="pricing.html">Precios</a></li>
+                            <li><a href="contact.html">Contáctanos</a></li>
+                            <li><a href="login.html">Iniciar sesión</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+
+        <section class="callaction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="aligncenter">
+                            <h1>Sistema de Gestión de Eventos Sociales de "Eventos L&F"</h1><span
+                                class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="callaction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div>
+                            <h1 class="aligncenter" id="toc">Tabla de contenido</h1><span
+                                class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
+                            <ol style="font-size: 24px;">
+                                <li><a href="#1">Introducción</a></li><br>
+                                <li><a href="#2">Antecedentes</a></li><br>
+                                <li><a href="#3">Planteamiento del problema</a></li><br>
+                                <li><a href="#4">Árbol de problemas</a></li><br>
+                                <li><a href="#5">Formulación del problema</a></li><br>
+                                <li><a href="#6">Propósito del estudio (objetivos)</a></li><br>
+                                <li><a href="#7">Método, medios e instrumentos de investigación</a></li><br>
+                                <li><a href="#8">Planificación de actividades</a></li>
+                            </ol>
+                            <br>
+                            <ol style="font-size: 24px;" class="romana" start="2">
+                                <li><a href="#II">Análisis Estructurado</a></li><br>
+                                <li><a href="#III">Análisis Orientado a Objetos</a></li><br>
+                                <li><a href="#z">Mapa mental de la página web</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="callaction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div>
+                            <h1 id="1">1. Introducción <a href="#toc" style="font-size: 16px;">⬆ Volver a la Tabla de
+                                    Contenido</a></h1><span class="clear spacer_responsive_hide_mobile "
+                                style="height:13px;display:block;"></span>
+                            <p style="font-size: 24px;">El negocio "Eventos L&F", dedicado a la
+                                organización de eventos sociales, quiere implementar un sistema integral informático que
+                                le
+                                permita gestionar de manera eficiente sus actividades. Actualmente, el negocio ofrece
+                                servicios como decoración, alquiler de mobiliario y otros elementos necesarios para
+                                eventos,
+                                además de personal de seguridad y garzones para dar una experiencia completa a sus
+                                clientes.
+                                Sin embargo, todas estas actividades son gestionadas de forma manual por el dueño, lo
+                                que
+                                representa un desafío de control y seguimiento.
+                                <br>
+                                <br>
+
+                                El objetivo del nuevo sistema es automatizar los procesos de gestión, programación y
+                                organización de eventos sociales, utilizando tanto el Análisis Estructurado como el
+                                Análisis
+                                Orientado a Objetos, con el fin de modelar clara y precisamente los datos del negocio.
+                                Se
+                                pretende diseñar un sistema en el que únicamente el dueño tenga acceso completo, ya que
+                                es
+                                él quien contacta al personal temportal, genera y registra los contratos de trabajo,
+                                gestiona los servicios ofrecidos y administra los pagos de los clientes.
+                                <br>
+                                <br>
+
+                                Además, el sistema deberá contar con una página web que funcione como carta digital de
+                                promocioón de los servicios disponibles, permitiendo a los interesados conocer las
+                                ofertas y
+                                contactar directamente al dueño. En cuanto a la administración de recursos, el sistema
+                                considerará que el dueño es el único encargado de adquirir el inventario (ya que no
+                                cuenta
+                                con un proveedor externo), registrar los precios y asume la responsabilidad ante
+                                cualquier
+                                pérdida o extravío.
+                                <br>
+                                <br>
+
+                                Por otro lado, se contemplarán las modalidades de pago que maneja el negocio, incluyendo
+                                la
+                                opción de pago adelantado y pago posterior al evento, con la posibilidad de mantener
+                                pagos
+                                pendientes y aplicar descuentos según criterios establecidos por el dueño.
+                                <br>
+                                <br>
+
+                                La implementación de este sistema permitirá a "Eventos L&F" optimizar sus procesos
+                                internos,
+                                agilizar la atención al cliente, tener un mejor control sobre sus recursos y proyectar
+                                una
+                                imagen más profesional acorde a sus servicios.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="callaction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div>
+                            <h1 id="2">2. Antecedentes <a href="#toc" style="font-size: 16px;">⬆ Volver a la Tabla de
+                                    Contenido</a></h1><span class="clear spacer_responsive_hide_mobile "
+                                style="height:13px;display:block;"></span>
+                            <p style="font-size: 24px;">
+                                En los últimos años, pequeñas y medianas empresas dedicadas a la organización de eventos
+                                han comenzado a adoptar soluciones tecnológicas para mejorar su gestión interna y
+                                optimizar la atención a sus clientes. La implementación de sistemas de gestión en
+                                microempresas mejora significativamente la toma de decisiones, reduce el margen de error
+                                en operaciones y fortalece la relación con los clientes.
+                                <br><br>
+                                Por ejemplo, sistemas similares han sido aplicados en negocios de catering, alquiler de
+                                mobiliario y organización de bodas, permitiendo a los propietarios administrar sus
+                                recursos, personal y eventos desde una sola interfaz.
+                                <br><br>
+                                Adicionalmente, el uso de metodologías como el Análisis Estructurado y el Análisis
+                                Orientado a Objetos ha sido ampliamente documentado en el diseño de sistemas
+                                administrativos, por su capacidad para representar procesos complejos de forma ordenada,
+                                modular y comprensible.
+                                <br><br>
+                                En Bolivia, por ejemplo, se desarrolló un sistema de reservas para la empresa Eventos
+                                Sociales Gran Poder (ESGP), con el objetivo de facilitar el proceso de reserva y
+                                cotización de servicios, permitiendo a los clientes realizar sus reservas de forma más
+                                eficiente. Este proyecto utilizó tecnologías modernas y metodologías de desarrollo que
+                                aseguraron la calidad y escalabilidad de la aplicación.
+                                <br><br>
+                                Asimismo, se implementó un sistema web para la gestión de eventos y préstamos de
+                                recursos tecnológicos en Bolivia Tech Hub, un espacio de desarrollo colaborativo. Este
+                                sistema permitió la organización eficiente de eventos como hackatones y seminarios, así
+                                como la administración de recursos tecnológicos y ambientes, utilizando metodologías
+                                ágiles y herramientas de modelado específicas.
+                                <br><br>
+                                Estos antecedentes evidencian la importancia y beneficios de implementar sistemas de
+                                gestión en empresas y microempresas dedicadas a la organización de eventos para ofrecer
+                                un mejor servicio al cliente y adaptarse a las exigencias del mercado actual.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="callaction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div>
+                            <h1 id="3">3. Planteamiento del Problema <a href="#toc" style="font-size: 16px;">⬆ Volver a
+                                    la Tabla de Contenido</a></h1><span class="clear spacer_responsive_hide_mobile "
+                                style="height:13px;display:block;"></span>
+                            <p style="font-size: 24px;">
+                                El negocio de "Eventos L&F" está dedicado a la organización de eventos sociales,
+                                actualmente gestiona sus procesos de forma manual, lo que conlleva mucho papeleo que
+                                influye en su manejo y el control del negocio. El dueño es quien administra
+                                personalmente todas las actividades, como la contratación de personal temporal (garzones
+                                y seguridad), la gestión de servicios ofrecidos (decoración, alquiler de mobiliario,
+                                entre otros), la adquisición y registro de inventario, y la elaboración de contratos, no
+                                cuenta con un sistema que centralice y automatice estas tareas.
+                                <br><br>
+                                Esta situación puede presentar problemas como la falta de control al instante sobre el
+                                estado de los recursos, el seguimiento de los pagos y adelantos realizados por los
+                                clientes, el registro adecuado de los eventos y los servicios prestados, así como la
+                                creación de contratos y disponibilidad de personal. Además, al no disponer de una
+                                plataforma digital para la promoción y el contacto directo con posibles clientes, la
+                                visibilidad del negocio se ve limitada, afectando su capacidad de crecimiento y
+                                posicionamiento en el mercado.
+                                <br><br>
+                                Otro aspecto relevante es la ausencia de un sistema que contemple casos especiales como
+                                el extravío de inventario, el manejo de descuentos y la gestión de pagos pendientes. La
+                                falta de automatización en estas áreas implica un riesgo administrativo y financiero
+                                para el dueño, quien asume toda la responsabilidad operativa del negocio.
+                                <br><br>
+                                En este contexto, se hace necesaria la implementación de un sistema de gestión,
+                                programación y organización que permita automatizar, organizar y optimizar todas las
+                                operaciones del negocio, garantizando un mayor control, eficiencia y proyección
+                                profesional de "Eventos L&F".
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="callaction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div>
+                            <h1 id="4">4. Árbol de problemas <a href="#toc" style="font-size: 16px;">⬆ Volver a la Tabla
+                                    de Contenido</a></h1><span class="clear spacer_responsive_hide_mobile "
+                                style="height:13px;display:block;"></span>
+                            <h2>📉 Causas del problema (raíces)</h2>
+                            <ol style="font-size: 24px;">
+                                <li>Falta de un sistema automatizado de gestión de eventos.</li><br>
+                                <li>El dueño realiza todas las gestiones sin apoyo tecnológico.</li><br>
+                                <li>No existe un control automatizado del inventario ni del personal.</li><br>
+                                <li>No hay página web para promocionar los servicios ni canal de contacto en línea.</li>
+                                <br>
+                                <li>Aumento en el papeleo de los pagos, adelantos y descuentos.</li>
+                            </ol>
+                            <h2>⚠️ Consecuencias del problema (ramas)</h2>
+                            <ol style="font-size: 24px;">
+                                <li>Posible desorganización en la programación de eventos.</li><br>
+                                <li>Riesgo de pérdida o mal manejo del inventario.</li><br>
+                                <li>Baja visibilidad del negocio y pérdida de potenciales clientes.</li><br>
+                                <li>Posibles errores en la gestión de pagos y contratos.</li><br>
+                                <li>Sobrecarga de trabajo para el dueño.</li><br>
+                                <li>Dificultad para escalar y profesionalizar el negocio.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="callaction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div>
+                            <h1 id="5">5. Formulación del Problema <a href="#toc" style="font-size: 16px;">⬆ Volver a la
+                                    Tabla de Contenido</a></h1><span class="clear spacer_responsive_hide_mobile "
+                                style="height:13px;display:block;"></span>
+                            <p style="font-size: 24px;">
+                                Actualmente, "Eventos L&F", enfrenta limitaciones operativas debido a la gestión manual
+                                de sus procesos. El dueño, quien es el único encargado de coordinar y registrar todos
+                                los aspectos del negocio -literalmente, lo hace todo- no cuenta con una herramienta
+                                informática que le permita centralizar y automatizar estas tareas.
+                                <br><br>
+                                Esta situación genera una posible carga excesiva de trabajo, riesgos de desorganización,
+                                pérdida de información, falta de trazabilidad en contratos y recursos, y dificultades en
+                                el seguimiento de cobros, adelantos o descuentos aplicados. Además, la ausencia de una
+                                página web limita la visibilidad del negocio, dificultando la captación de nuevos
+                                clientes.
+                                <br><br>
+                                Ante este contexto, surge la necesidad de diseñar e implementar un sistema informático
+                                basado en los paradigmas de Análisis Estructurado y Orientado a Objetos, que permita al
+                                dueño gestionar de manera eficiente todos los procesos del negocio, así como contar con
+                                una plataforma web que sirva como canal de promoción y contacto con los clientes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="callaction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div>
+                            <h1 id="6">6. Propósito del Estudio <a href="#toc" style="font-size: 16px;">⬆ Volver a la
+                                    Tabla de Contenido</a></h1><span class="clear spacer_responsive_hide_mobile "
+                                style="height:13px;display:block;"></span>
+                            <h2>✅ Objetivo General</h2>
+                            <p style="font-size: 24px;">
+                                Diseñar e implementar un sistema de gestión, programación y organización de eventos
+                                sociales para el negocio "Eventos L&F", utilizando el Análisis Estructurado y el
+                                Análisis Orientado a Objetos, que permita al dueño mejorar su administración de los
+                                servicios ofrecidos, el inventario, la contratación de personal, los contratos, los
+                                pagos y la promoción del negocio a través de una página web.
+                            </p>
+                            <h2>🎯 Objetivos Específicos</h2>
+                            <ol style="font-size: 24px;">
+                                <li>Analizar los procesos actuales de gestión de eventos, contratación de personal,
+                                    manejo de inventario, pagos y comunicación con clientes en "Eventos L&F".</li><br>
+                                <li>Modelar el sistema utilizando técnicas del Análisis Estructurado y del Análisis
+                                    Orientado a Objetos, que reflejen el funcionamiento y las necesidades del negocio.
+                                </li><br>
+                                <li>Desarrollar un sistema informático que permita al dueño:<br><br>
+                                    <ul>
+                                        <li>Registrar y gestionar eventos sociales.</li><br>
+                                        <li>Contratar y asignar personal (garzones y seguridad).</li><br>
+                                        <li>Controlar el inventario de mobiliario y decoraciones.</li><br>
+                                        <li>Registrar contratos, aplicar adelantos, descuentos y controlar pagos
+                                            pendientes.</li><br>
+                                    </ul>
+                                </li>
+                                <li>Diseñar e integrar una página web que funcione como plataforma de promoción de
+                                    servicios y canal de contacto con clientes potenciales.</li><br>
+                                <li>Incorporar mecanismos de control ante situaciones como el extravío de recursos,
+                                    permitiendo la trazabilidad y la responsabilidad correspondiente del inventario.
+                                </li><br>
+                                <li>Evaluar la funcionalidad del sistema a través de pruebas que aseguren la correcta
+                                    automatización de los procesos y la facilidad de uso para el dueño del negocio.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="callaction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div>
+                            <h1 id="7">7. Método, medios e instrumentos de investigación <a href="#toc"
+                                    style="font-size: 16px;">⬆ Volver a la Tabla de Contenido</a></h1><span
+                                class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
+                            <h2>Método</h2>
+                            <p style="font-size: 24px;">
+                                Se basará en el paradigma del Análisis Estructurado (usando diagramas) y el paradigma de
+                                Análisis Orientado a objetos (usando UML).
+                            </p>
+                            <h2>Medios</h2>
+                            <ol style="font-size: 24px;">
+                                <li>Entrevistas al dueño del negocio</li><br>
+                                <li>Observación directa del funcionamiento del negocio
+                                </li><br>
+                                <li>Revisión documental<br><br>
+                                    <ul>
+                                        <li>Documentación disponible</li><br>
+                                        <li>Registros de eventos pasados</li><br>
+                                        <li>Listas de inventario</li><br>
+                                        <li>Material fotográfico</li><br>
+                                    </ul>
+                                </li>
+                                <li>Uso de herramientas de software de modelado y otros</li><br>
+                                <li>Generación de bases de datos</li><br>
+                                <li>Revisión bibliográfica
+                                </li>
+                            </ol>
+                            <h2>Instrumentos de investigación</h2>
+                            <ol style="font-size: 24px;">
+                                <li>Entrevistas</li><br>
+                                <li>Notas</li><br>
+                                <li>Reuniones de grupo en línea</li><br>
+                                <li>Cuestionarios
+                                </li><br>
+                                <li>Diagramas:<br><br>
+                                    <ul>
+                                        <li>de flujo de datos (DFD)</li><br>
+                                        <li>de casos de uso</li><br>
+                                        <li>de clases</li><br>
+                                        <li>entidad-relación (ER)</li><br>
+                                        <li>de modelado</li><br>
+                                    </ul>
+                                </li>
+                            </ol>
+                            <h2>Justificación</h2>
+                            <p style="font-size: 24px;">
+                                La elección del método de investigación se fundamenta en la necesidad de comprender el
+                                funcionamiento del negocio "Eventos L&F" y diseñar un sistema que responda
+                                adecuadamente a sus actividades. Al tratarse de un negocio pequeño gestionado
+                                únicamente por su dueño, se requiere un enfoque exploratorio.<br><br>
+
+                                El uso de entrevistas y observación directa es esencial, ya que permite obtener
+                                información más precisa. Los diagramas del Análisis Estructurado y Orientado a
+                                Objetos permiten representar de manera visual los procesos del negocio.<br><br>
+
+                                La selección de estos métodos e instrumentos responde a criterios de
+                                eficiencia y bajo costo, ya que no se cuenta con infraestructura tecnológica ni personal
+                                técnico.
+                            </p>
+                            <h2>Alcances</h2>
+                            <p style="font-size: 24px;">
+                                Esta investigación quiere proponer una solución tecnológica que optimice
+                                la gestión de eventos en un negocio que actualmente opera de forma manual. Se enfoca en
+                                identificar y mitigar las principales barreras por la ausencia de una página web para
+                                comunicación con clientes. Sus alcances son:<br><br>
+                            </p>
+                            <ul style="font-size: 24px;">
+                                <li>Diseño de una propuesta de sistema digital</li><br>
+                                <li>Respuestas más rápidas</li><br>
+                                <li>Evaluación del impacto</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="callaction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div>
+                            <h1 id="8">8. Planificación de actividades <a href="#toc" style="font-size: 16px;">⬆ Volver
+                                    a la Tabla de Contenido</a></h1><span class="clear spacer_responsive_hide_mobile "
+                                style="height:13px;display:block;"></span>
+                            <div class="fase">
+                                <h3>Fase 3 – Sábado 17 de mayo</h3>
+                                <ul style="font-size: 24px;">
+                                    <li>Reunión</li><br>
+                                    <li>Ideas sobre la implementación la página web dinámica</li><br>
+                                    <li>Varios</li>
+                                </ul>
+                            </div>
+
+                            <div class="fase">
+                                <h3>Fase 4 – Miércoles 21 de mayo</h3>
+                                <ul style="font-size: 24px;">
+                                    <li>Segunda entrevista con el propietario</li><br>
+                                    <li>Recolección de información y datos fotográficos</li><br>
+                                    <li>Mejoras para el proyecto</li><br>
+                                    <li>Informe del estado del proyecto</li>
+                                </ul>
+                            </div>
+
+                            <div class="fase">
+                                <h3>Fase 5 – Domingo 25 de mayo</h3>
+                                <ul style="font-size: 24px;">
+                                    <li>Desarrollo de propuestas</li><br>
+                                    <li>Tercera entrevista con el propietario y posiblemente al personal (por confirmar)
+                                    </li><br>
+                                    <li>Diseño de las bases de datos</li><br>
+                                    <li>Aplicación de mejoras al proyecto</li>
+                                </ul>
+                            </div>
+
+                            <div class="fase">
+                                <h3>Fase 6 – Jueves 29 de mayo</h3>
+                                <ul style="font-size: 24px;">
+                                    <li>Revisión de avances</li><br>
+                                    <li>Corrección de errores</li><br>
+                                    <li>Implementación de la página web dinámica y realización de pruebas</li>
+                                </ul>
+                            </div>
+
+                            <div class="fase">
+                                <h3>Fase 7 – Lunes 2 de junio</h3>
+                                <ul style="font-size: 24px;">
+                                    <li>Ensayo de presentación final</li><br>
+                                    <li>Ajustes finales</li><br>
+                                    <li>Verificación y pruebas de la página web</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="callaction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div>
+                            <h1 id="II">II. Análisis Estructurado <a href="#toc" style="font-size: 16px;">⬆ Volver a la
+                                    Tabla de Contenido</a></h1><span class="clear spacer_responsive_hide_mobile "
+                                style="height:13px;display:block;"></span>
+
+                            <h2>II.0. Modelo Ambiental</h2>
+                            <img src="img/II_0.jpg" width="100%">
+
+                            <h3>II.1. Modelo de comportamiento - Nivel 1</h3>
+                            <img src="img/II_1.jpg" width="100%">
+
+                            <h4>II.1.2. Modelo de comportamiento 1 - Nivel 2</h4>
+                            <img src="img/II_1_2.jpg" width="100%">
+                            <h4>II.2.2. Modelo de comportamiento 2 - Nivel 2</h4>
+                            <img src="img/II_2_2.jpg" width="100%">
+                            <h4>II.3.2. Modelo de comportamiento 3 - Nivel 2</h4>
+                            <img src="img/II_3_2.jpg" width="100%">
+                            <h4>II.4.2. Modelo de comportamiento 4 - Nivel 2</h4>
+                            <img src="img/II_4_2.jpg" width="100%">
+                            <h4>II.5.2. Modelo de comportamiento 5 - Nivel 2</h4>
+                            <img src="img/II_5_2.jpg" width="100%">
+                            <h4>II.6.2. Modelo de comportamiento 6 - Nivel 2</h4>
+                            <img src="img/II_6_2.jpg" width="100%">
+                            <h4>II.7.2. Modelo de comportamiento 7 - Nivel 2</h4>
+                            <img src="img/II_7_2.jpg" width="100%">
+
+
+                            <h1 id="III">III. Análisis Orientado a Objetos <a href="#toc" style="font-size: 16px;">⬆
+                                    Volver a la Tabla de Contenido</a></h1><span
+                                class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
+                            <h2>III.1. Diagrama de Clases</h2>
+                            <img src="img/III_1.jpg" width="100%">
+                            <h2>III.2. Diagrama E-R</h2>
+                            <img src="img/III_2.jpg" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="callaction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="aligncenter">
+                            <h1 id="z">Mapa mental de la página web <a href="#toc" style="font-size: 16px;">⬆ Volver a
+                                    la Tabla de Contenido</a></h1><span class="clear spacer_responsive_hide_mobile "
+                                style="height:13px;display:block;"></span>
+
+                            <img src="img/x.jpg" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="widget">
+                            <h5 class="widgetheading">Contáctanos</h5>
+                            <address>
+                                <strong>Abovecompany Inc</strong><br>
+                                JC Main Road, Near Silnile tower<br>
+                                Pin-21542 NewYork US.
+                            </address>
+                            <p>
+                                <i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
+                                <i class="icon-envelope-alt"></i> email@domainname.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="widget">
+                            <h5 class="widgetheading">Direcciones web rápidas</h5>
+                            <ul class="link-list">
+                                <li><a href="#">Últimos eventos</a></li>
+                                <li><a href="#">Términos y condiciones</a></li>
+                                <li><a href="#">Política de privacidad</a></li>
+                                <li><a href="#">Contratos</a></li>
+                                <li><a href="#">Contáctanos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="widget">
+                            <h5 class="widgetheading">Últimos anuncios</h5>
+                            <ul class="link-list">
+                                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+                                <li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+                                <li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="widget">
+                            <h5 class="widgetheading">Noticias recientes</h5>
+                            <ul class="link-list">
+                                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+                                <li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+                                <li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sub-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="copyright">
+                                <p>
+                                    <span>&copy; Todos los derechos reservados. Plantilla por </span><a
+                                        href="http://webthemez.com" target="_blank">WebThemez</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="social-network">
+                                <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li><a href="#" data-placement="top" title="Pinterest"><i
+                                            class="fa fa-pinterest"></i></a></li>
+                                <li><a href="#" data-placement="top" title="Google plus"><i
+                                            class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+    <!-- javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.fancybox-media.js"></script>
+    <script src="js/portfolio/jquery.quicksand.js"></script>
+    <script src="js/portfolio/setting.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/owl-carousel/owl.carousel.js"></script>
+    <!-- Lightbox2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
+
+</body>
+
+</html>
